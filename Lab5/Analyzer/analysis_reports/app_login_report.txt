@@ -1,0 +1,124 @@
+Analysis Report for: app_login.apk
+Analysis Time: 2025-04-21T17:03:13.545866
+========================================
+
+--- Manifest Information ---
+Package Name: com.jordansamhi.securitymobilecomputing
+Main Activity: com.jordansamhi.securitymobilecomputing.MainActivity1
+Min SDK: 0
+Target SDK: 0
+Debuggable: False
+Allow Backup: True
+
+Permissions:
+- com.jordansamhi.securitymobilecomputing.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+- com.jordansamhi.securitymobilecomputing.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION (Protection: signature)
+
+Components:
+  Activitys:
+  - com.jordansamhi.securitymobilecomputing.MainActivity1 (Exported)
+  Providers:
+  - androidx.startup.InitializationProvider
+
+--- Native Libraries ---
+  None found or detection failed.
+
+--- Reflection & Dynamic Loading ---
+Reflection Calls Found: True
+Dynamic Loading Found: True
+Native Method Calls/Loads Found: False
+
+--- Interesting Strings ---
+- 
+- (
+- 
+
+ #  
+- 
+
+Coroutine 
+- 
+
+
+- 
+       
+- 
+                {
+                    "declaringClass": "
+- 
+                {
+                    "name": 
+- 
+                }
+                
+- 
+            Flow exception transparency is violated:
+                Previous 'emit' call has thrown exception 
+- 
+       android:id="
+- 
+'ConstraintSet':{
+
+- 
+*** Metrics ***
+measures: 
+- 
+---------------------------------------------
+
+- 
+<ConstraintSet>
+
+- 
+base path: 
+- 
+determineGroups: 
+- 
+graphOptimizer: 
+- 
+graphSolved: 
+- 
+infeasibleDetermineGroups: 
+- 
+linearSolved: 
+- 
+measuresWrap: 
+- 
+measuresWrapInfeasible: 
+- 
+this path: 
+- 
+widgets: 
+-  
+ View Holder 2:
+-                   
+-        circle
+-       matchDef
+-       matchMin
+-       matchPercent
+-       max
+-       min
+-       size
+-     <TD 
+-     <TD BORDER="1" 
+-     actualHeight:
+-     actualLeft:
+-     actualTop:
+-     actualWidth:
+-     dimensionRatio
+-     height
+-     horizontalBias
+-     horizontalChainStyle
+-     values:
+-     verticalBias
+-     verticalChainStyle
+-     view = 
+-     width
+-     },
+
+... and 6903 more.
+
+--- Androguard Summary (Optional) ---
+Package: com.jordansamhi.securitymobilecomputing
+Main Activity (from Androguard): com.jordansamhi.securitymobilecomputing.MainActivity1
+Dangerous Permissions Found:
+  None identified by keyword search.

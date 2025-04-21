@@ -1,0 +1,100 @@
+Analysis Report for: repay.apk
+Analysis Time: 2025-04-21T17:47:09.098545
+========================================
+
+--- Manifest Information ---
+Package Name: com.repay.android
+Main Activity: com.repay.android.MainActivity
+Min SDK: 0
+Target SDK: 0
+Debuggable: False
+Allow Backup: True
+
+Permissions:
+- android.permission.READ_CONTACTS
+- android.permission.WRITE_EXTERNAL_STORAGE
+
+Components:
+  Activitys:
+  - com.repay.android.MainActivity (Exported)
+  - com.repay.android.adddebt.AddDebtActivity
+  - com.repay.android.adddebt.RepayDebtActivity
+  - com.repay.android.adddebt.EditDebtActivity
+  - com.repay.android.frienddetails.FriendActivity
+  - com.repay.android.settings.SettingsActivity
+
+--- Native Libraries ---
+  None found or detection failed.
+
+--- Reflection & Dynamic Loading ---
+Reflection Calls Found: True
+Dynamic Loading Found: True
+Native Method Calls/Loads Found: False
+
+--- Interesting Strings ---
+- 
+
+Message
+-----------------
+
+- 
+DB:
+People=
+- 
+Debts=
+- 
+Manufacturer: 
+- 
+Model: 
+-   Created new loader 
+-   Current loader is stopped; replacing
+-   Destroying: 
+-   Enqueuing as new pending loader
+-   Filter did not match: 
+-   Filter matched!  match=0x
+-   Filter's target already added
+-   Finished Retaining: 
+-   Ignoring load complete -- destroyed
+-   Ignoring load complete -- not active
+-   Making last loader inactive: 
+-   Re-using existing loader 
+-   Removing last inactive loader: 
+-   Removing pending loader: 
+-   Reseting: 
+-   Retaining: 
+-   Starting: 
+-   Stopping: 
+-   Switching to pending loader: 
+-   mActivity=
+-   mAvailIndices: 
+-   mContainer=
+-   mCurState=
+-   mDeliveredData=
+-   mNeedMenuInvalidate=
+-   mNoTransactionsBecause=
+-   mParent=
+-   onLoadFinished in 
+-  (Did you forget to add the android.support.PARENT_ACTIVITY <meta-data> 
+-  (index 
+-  Pager class: 
+-  Pager id: 
+-  Problematic adapter: 
+-  already has a 
+-  at index 
+-  base fragment #
+-  but this 
+-  cleared
+-  curTab=
+-  did not call through to super.onActivityCreated()
+-  did not call through to super.onAttach()
+-  did not call through to super.onCreate()
+-  did not call through to super.onDestroy()
+-  did not call through to super.onDestroyView()
+-  did not call through to super.onDetach()
+... and 1011 more.
+
+--- Androguard Summary (Optional) ---
+Package: com.repay.android
+Main Activity (from Androguard): com.repay.android.MainActivity
+Dangerous Permissions Found:
+- android.permission.READ_CONTACTS
