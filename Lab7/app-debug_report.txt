@@ -1,0 +1,114 @@
+Analysis Report for: app-debug.apk
+Analysis Time: 2025-04-28T18:29:27.908479
+========================================
+
+--- Manifest Information ---
+Package Name: com.example.nativeurlapp
+Main Activity: com.example.nativeurlapp.MainActivity
+Min SDK: 0
+Target SDK: 0
+Debuggable: True
+Allow Backup: True
+
+Permissions:
+- com.example.nativeurlapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+- com.example.nativeurlapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION (Protection: signature)
+
+Components:
+  Activitys:
+  - com.example.nativeurlapp.MainActivity (Exported)
+  - androidx.compose.ui.tooling.PreviewActivity (Exported)
+  - androidx.activity.ComponentActivity (Exported)
+  Receivers:
+  - androidx.profileinstaller.ProfileInstallReceiver (Exported)
+  Providers:
+  - androidx.startup.InitializationProvider
+
+--- Native Libraries ---
+- lib\arm64-v8a\libandroidx.graphics.path.so (Arch: arm64-v8a)
+- lib\armeabi-v7a\libandroidx.graphics.path.so (Arch: armeabi-v7a)
+- lib\x86\libandroidx.graphics.path.so (Arch: x86)
+- lib\x86_64\libandroidx.graphics.path.so (Arch: x86_64)
+- lib\arm64-v8a\libnative-lib.so (Arch: arm64-v8a)
+- lib\armeabi-v7a\libnative-lib.so (Arch: armeabi-v7a)
+- lib\x86\libnative-lib.so (Arch: x86)
+- lib\x86_64\libnative-lib.so (Arch: x86_64)
+
+  Usage Counts (System.loadLibrary):
+    None detected.
+
+--- Reflection & Dynamic Loading ---
+Reflection Calls Found: True
+Dynamic Loading Found: True
+Native Method Calls/Loads Found: True
+
+--- Interesting Strings ---
+- 	name: 
+- 	viewportHeight: 
+- 	viewportWidth: 
+- 
+            |
+- 
+    Please check whether the focusRequester is FocusRequester.Cancel or FocusRequester.Default
+    before invoking any functions on the focusRequester.
+
+- 
+   FocusRequester is not initialized. Here are some possible fixes:
+
+   1. Remember the FocusRequester: val focusRequester = remember { FocusRequester() }
+   2. Did you forget to add a Modifier.focusRequester() ?
+   3. Are you attempting to request focus during composition? Focus requests should be made in
+   response to some event. Eg Modifier.clickable { focusRequester.requestFocus() }
+
+- 
+Delegate Node: 
+-   <path d="
+-   <path fill-rule="evenodd" d="
+-   current:   
+-   gap owner: 
+-   group gap: 
+-   parent:    
+-   slots gap: 
+-  - consider getOrElse or getOrNull
+-  <= end=
+-  <= textEnd=
+-  > textEnd=
+-  > toIndex: 
+-  InterruptionHandlingOffset
+-  Other tree: 
+-  Parent tree: 
+-  and input 
+-  and maxLines 
+-  as it already is attached.  Tree: 
+-  asked to inflate view for <
+-  because it already has a parent. This tree: 
+-  because it already has an owner. This tree: 
+-  but was 
+-  but was supposed to be 
+-  can only be used with a compatible window decor layout
+-  can only be used with android:layout_height="wrap_content"
+-  can only be used with android:layout_width="match_parent" (or fill_parent)
+-  cannot be null when calculating alignment line
+-  cannot be saved using the current SaveableStateRegistry. The default implementation only supports types which can be stored inside the Bundle. Please consider implementing a custom Saver for this class and pass it as a stateSaver parameter to rememberSaveable().
+-  cannot be saved using the current SaveableStateRegistry. The default implementation only supports types which can be stored inside the Bundle. Please consider implementing a custom Saver for this class and pass it to rememberSaveable().
+-  children: 
+-  custom actions for one widget
+-  definedOn: 
+-  elements.
+-  encountered, scope found at 
+-  expected to be 
+-  extend past the end of the slot table
+-  for group 
+-  found gap at 
+-  has no ViewTreeLifecycleOwner
+-  has null parent
+-  in class 
+-  in scope 
+-  in the map
+... and 15033 more.
+
+--- Androguard Summary (Optional) ---
+Package: com.example.nativeurlapp
+Main Activity (from Androguard): com.example.nativeurlapp.MainActivity
+Dangerous Permissions Found:
+  None identified by keyword search.
