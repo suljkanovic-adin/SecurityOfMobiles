@@ -1,0 +1,1 @@
+C:\Users\sulad\AndroidStudioProjects\NativeUrlApp\app\src\main\cpp\CMakeLists.txt

@@ -1,0 +1,3 @@
+C:/Users/sulad/AndroidStudioProjects/NativeUrlApp/app/.cxx/Debug/5532b314/armeabi-v7a/CMakeFiles/native-lib.dir
+C:/Users/sulad/AndroidStudioProjects/NativeUrlApp/app/.cxx/Debug/5532b314/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/Users/sulad/AndroidStudioProjects/NativeUrlApp/app/.cxx/Debug/5532b314/armeabi-v7a/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">NativeUrlApp</string>
+    <string name="loading_url">Loading URL…</string>
+</resources>
